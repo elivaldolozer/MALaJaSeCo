@@ -1,5 +1,5 @@
 # MALaJaSeCo
-Informações, códigos e artefatos sobre paper "MALaJaSeCo: Sistema para Monitoramento de Ambientes com Auxílio de Lâmpadas e Janelas Sensíveis ao Contexto"
+Informações, códigos e artefatos sobre paper *"MALaJaSeCo: Sistema para Monitoramento de Ambientes com Auxílio de Lâmpadas e Janelas Sensíveis ao Contexto"*
 
 ## Informações
 Universidade Federal da Bahia
