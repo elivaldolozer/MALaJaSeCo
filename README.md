@@ -9,6 +9,6 @@ Disciplina de Computação Ubíque e Sensível ao Contexto
 Profa. Vavinha Vieira
 
 ### Autores
-Elivaldo Lozer Fracalossi Ribero e Leandro Souza de Oliveira
+[Elivaldo Lozer Fracalossi Ribero](https://github.com/elivaldolozer/) e [Leandro Souza de Oliveira](https://github.com/leojl/)
 
 SSA/BA, 19/03/2017
