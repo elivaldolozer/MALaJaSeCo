@@ -2,9 +2,11 @@
 Informações, códigos e artefatos sobre paper "MALaJaSeCo: Sistema para Monitoramento de Ambientes com Auxílio de Lâmpadas e Janelas Sensíveis ao Contexto"
 
 ## Informações
-Programa de Pós-Graduação em Ciência da Computação, UFBA, 2016.2.
+Universidade Federal da Bahia
 
-Disciplina de Computação Ubíque e Sensível ao Contexto
+Programa de Pós-Graduação em Ciência da Computação
+
+Disciplina: Computação Ubíqua e Sensível ao Contexto
 
 Profa. Vavinha Vieira
 
