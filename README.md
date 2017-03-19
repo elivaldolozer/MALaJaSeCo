@@ -3,7 +3,9 @@ Informações, códigos e artefatos sobre paper "MALaJaSeCo: Sistema para Monito
 
 ## Informações
 Programa de Pós-Graduação em Ciência da Computação, UFBA, 2016.2.
+
 Disciplina de Computação Ubíque e Sensível ao Contexto
+
 Profa. Vavinha Vieira
 
 ### Autores
