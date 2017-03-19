@@ -1,5 +1,84 @@
 A Tabela abaixo descreve todas as possibilidades por intermédio de regras ECA (*event*, *condictions*, *actions*)
 
 ***
----
-___
+
+
+RULE NAME | RULE DESCRIPTION | EVENT | CONDITIONS | ACTIONS
+-----------------------------------------------------------
+JanAbeLamLig | Janela aberta e lâmpada ligada | Sensores obtêm luminosidades (ideal e do ambiente) e verificam chuva | SE (janela == aberta E lâmpada == ligada) | Abre janela E Liga lâmpada |
+-----------------------------------------------------------
+JanAbeLamDes
+Janela aberta e lâmpada desligada
+Sensores obtêm luminosidades (ideal e do ambiente) e verificam chuva
+SE (janela == aberta E lâmpada == desligada)
+Abre janela E Desliga lâmpada
+JanAbeLamAutLumIdeal
+Janela aberta, lâmpada automática e luminosidade ideal
+Sensores obtêm luminosidades (ideal e do ambiente) e verificam chuva
+SE (janela == aberta E lâmpada == automática E luminosidade == ideal)
+Abre janela e E determina luminosidade
+JanAbeLamAutLumNideal
+Janela aberta, lâmpada automática e luminosidade não ideal
+Sensores obtêm luminosidades (ideal e do ambiente) e verificam chuva
+SE (janela == aberta E lâmpada == automática E luminosidade != ideal)
+Abre janela E determina luminosidade do ambiente E ajusta luminosidade
+JanFecLamLig
+Janela fechada e lâmpada ligada
+Sensores obtêm luminosidades (ideal e do ambiente) e verificam chuva
+SE (janela == fechada E lâmpada == ligada)
+Fecha janela E liga lâmpada
+JanFecLamDes
+Janela fechada e lâmpada desligada
+Sensores obtêm luminosidades (ideal e do ambiente) e verificam chuva
+SE (janela == fechada E lâmpada == desligada)
+Fecha janela E desliga lâmpada
+JanFecLamAutLumIdeal
+Janela fechada, lâmpada automática e luminosidade atual
+Sensores obtêm luminosidades (ideal e do ambiente) e verificam chuva
+SE (janela == fechada E lâmpada == automática E luminosidade == ideal)
+Fecha janela E determina luminosidade
+JanFecLamAutLumNideal
+Janela fechada, lâmpada automática e luminosidade não ideal
+Sensores obtêm luminosidades (ideal e do ambiente) e verificam chuva
+SE (janela == fechada E lâmpada == automática E luminosidade != ideal)
+Fecha janela E determina luminosidade E ajusta luminosidade
+JanAutChuvLamLig
+Janela automática, chuva e lâmpada ligada
+Sensores obtêm luminosidades (ideal e do ambiente) e verificam chuva
+SE (janela == automática E chuva == verdadeiro E lâmpada == ligada)
+Detecta chuva E fecha janela E liga lâmpada
+JanAutChuvLamDesl
+Janela automática, chuva e lâmpada desligada
+Sensores obtêm luminosidades (ideal e do ambiente) e verificam chuva
+SE (janela == automática E chuva == verdadeiro E lâmpada == desligada)
+Detecta chuva E fecha janela E desliga lâmpada
+JanAutChuvLamAutLumIde
+Janela automática, chuva, lâmpada automática e luminosidade ideal
+Sensores obtêm luminosidades (ideal e do ambiente) e verificam chuva
+SE (janela == automática E chuva == verdadeiro E lâmpada == automática e luminosidade == ideal)
+Detecta chuva E fecha janela E determina luminosidade
+JanAutChuvLamAutLumNIde
+Janela automática, chuva, lâmpada automática e luminosidade não ideal
+Sensores obtêm luminosidades (ideal e do ambiente) e verificam chuva
+SE (janela == automática E chuva == verdadeiro E lâmpada == automática E luminosidade != ideal)
+Detecta chuva E fecha janela E detecta luminosidade E ajusta luminosidade
+JanAutNChuvLamLig
+Janela automática, não chuva e lâmpada ligada
+Sensores obtêm luminosidades (ideal e do ambiente) e verificam chuva
+SE (janela == automática E chuva == falso E lâmpada == ligada)
+Detecta chuva E abre janela E liga lâmpada
+JanAutNChuvLamDesl
+Janela automática, não chuva e lâmpada desligada
+Sensores obtêm luminosidades (ideal e do ambiente) e verificam chuva
+SE (janela == automática E chuva == falso E lâmpada == desligada)
+Detecta chuva E abre janela E desliga lâmpada
+JanAutNChuvLamAutLumIde
+Janela automática, não chuva, lâmpada automática e luminosidade ideal
+Sensores obtêm luminosidades (ideal e do ambiente) e verificam chuva
+SE (janela == automática E chuva == falso E lâmpada == automático E luminosidade == ideal)
+Detecta chuva E abre janela E determina luminosidade
+JanAutNChuvLamAutLumNIde
+Janela automática, não chuva, lâmpada automática e luminosidade não ideal
+Sensores obtêm luminosidades (ideal e do ambiente) e verificam chuva
+SE (janela == automática E chuva == falso E lâmpada == automática E luminosidade != ideal)
+Detecta chuva E abre janela E determina luminosidade E ajusta luminosidade
